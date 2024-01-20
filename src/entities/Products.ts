@@ -65,6 +65,9 @@ export class Products extends BaseEntity {
     @Column('text', { array: true, nullable: false })
     images: string[];
 
+    @Column('float', { array: true, nullable: true, default: [] })
+    sizes: number[];
+
     @Column({
         type: 'enum',
         enum: Colors,
