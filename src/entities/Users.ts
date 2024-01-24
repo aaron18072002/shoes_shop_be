@@ -63,7 +63,7 @@ export class Users extends BaseEntity {
     @Column({
         type: 'text',
         nullable: true,
-        default: '/images/admin.png',
+        default: '70491d7d086829a40cff67f00',
     })
     avatar_img: string;
 
